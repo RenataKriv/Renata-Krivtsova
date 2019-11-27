@@ -1,0 +1,45 @@
+.best{
+	background-image: url(../img/bg/best.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.best__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.best__name{
+  @include lifehack();
+  margin-top: 20px;
+  font-size: 24px;
+  color: $black;
+  line-height: 28.14px;
+  text-align: center;
+}
+.best__text{
+  font-size: 14px;
+  text-align: justify;
+  text-align-last: center;
+  color: #2f3234;
+   @include ubuntu();
+} 
+
+.best__list{
+  height: 100%;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.best__item{
+  margin-left:36px;
+}
+
+.best__photo{
+  display:block;
+  margin:auto;
+}
